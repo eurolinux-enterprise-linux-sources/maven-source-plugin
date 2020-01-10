@@ -1,6 +1,6 @@
 Name:           maven-source-plugin
 Version:        2.2.1
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Plugin creating source jar
 
 Group:          Development/Libraries
@@ -57,6 +57,9 @@ sed -i -e "s|plexus-container-default|plexus-container|g" pom.xml
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.2.1-7
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 2.2.1-6
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
